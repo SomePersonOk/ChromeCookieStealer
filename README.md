@@ -23,7 +23,9 @@ You can install the required packages using pip:
 ```bash
 pip install pycryptodome pypsexec pyaes pywin32
 ```
-Usage
+Usage:
+Download One of the releases
+OR
 Clone the repository:
 ```bash
 git clone https://github.com/yourusername/chrome-cookie-decryptor.git
