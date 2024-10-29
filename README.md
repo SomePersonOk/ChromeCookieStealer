@@ -25,9 +25,10 @@ pip install pycryptodome pypsexec pyaes pywin32
 ```
 Usage:
 
-Download One of the releases
+Download One of the releases : 
 
 OR
+
 Clone the repository:
 ```bash
 git clone https://github.com/yourusername/chrome-cookie-decryptor.git
