@@ -22,6 +22,7 @@ You can install the required packages using pip:
 
 ```bash
 pip install pycryptodome pypsexec pyaes pywin32
+```
 Usage
 Clone the repository:
 ```bash
