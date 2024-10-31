@@ -39,7 +39,6 @@ cd chrome-cookie-decryptor
 
 Run the script:
 
-Make sure you have Chrome closed before running the script to ensure it can access the cookie database.
 ```bash
 python chrome_cookie_decryptor.py
 ```
