@@ -24,7 +24,7 @@ You can install the required packages using pip:
 pip install pycryptodome pypsexec pyaes pywin32
 ```
 
-Usage:
+1. Usage:
 
 Download One of the releases : 
 
@@ -46,7 +46,7 @@ Output:
 
 The script will generate a text file for each Chrome profile in the current directory, containing the decrypted cookies in a tab-separated format.
 
-How It Works:
+2. How It Works:
 
 Profile Path Retrieval: The script retrieves the path to the user's Chrome profiles from the environment variable.
 
