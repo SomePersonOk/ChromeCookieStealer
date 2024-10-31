@@ -42,11 +42,11 @@ Run the script:
 ```bash
 python chrome_cookie_decryptor.py
 ```
-Output:
+2. Output:
 
 The script will generate a text file for each Chrome profile in the current directory, containing the decrypted cookies in a tab-separated format.
 
-2. How It Works:
+3. How It Works:
 
 Profile Path Retrieval: The script retrieves the path to the user's Chrome profiles from the environment variable.
 
