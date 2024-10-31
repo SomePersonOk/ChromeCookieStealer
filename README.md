@@ -23,6 +23,7 @@ You can install the required packages using pip:
 ```bash
 pip install pycryptodome pypsexec pyaes pywin32
 ```
+
 Usage:
 
 Download One of the releases : 
@@ -30,6 +31,7 @@ Download One of the releases :
 OR
 
 Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/chrome-cookie-decryptor.git
 cd chrome-cookie-decryptor
@@ -45,7 +47,8 @@ Output:
 
 The script will generate a text file for each Chrome profile in the current directory, containing the decrypted cookies in a tab-separated format.
 
-How It Works
+How It Works:
+
 Profile Path Retrieval: The script retrieves the path to the user's Chrome profiles from the environment variable.
 
 Key Extraction: It loads the Local State JSON file to access the encryption keys used by Chrome.
@@ -57,9 +60,11 @@ For v20 cookies, it retrieves the decryption key using Windows DPAPI and then de
 Output Generation: Decrypted cookies are written to text files named after each profile.
 
 Disclaimer
+
 This tool is intended for educational and research purposes only. Misuse of this tool can lead to legal consequences. Always ensure you have permission to access and analyze the data you are working with.
 
 Contributing
+
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Any contributions, suggestions, or improvements are welcome!
 
 License
@@ -69,5 +74,3 @@ Acknowledgments
 pycryptodome
 pypsexec
 pyaes
-
-Feel free to modify any sections as needed, especially the repository URL.
